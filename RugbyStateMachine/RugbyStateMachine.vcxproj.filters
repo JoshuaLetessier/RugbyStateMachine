@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\StateMachine">
+      <UniqueIdentifier>{866c0fc2-ed78-4326-a9c0-cb44508a883b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\StateMachine">
+      <UniqueIdentifier>{7582447d-1f04-4e3a-ba8d-dc828acaf47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Action">
+      <UniqueIdentifier>{40011527-48ee-463d-b02a-6df2f4755041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Condition">
+      <UniqueIdentifier>{45cb9911-3bf4-4a85-8139-e3e6ccfb6ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Action">
+      <UniqueIdentifier>{c5916f66-3d3f-452e-a2d5-b8523d447c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Condition">
+      <UniqueIdentifier>{f5c26ac3-7e59-4005-934e-4cb40fdca300}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine\Transition.cpp">
+      <Filter>Fichiers sources\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine\Behaviour.cpp">
+      <Filter>Fichiers sources\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugController.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\IdleWaitAction.cpp">
+      <Filter>Fichiers sources\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\DefenserTakeBallAction.cpp">
+      <Filter>Fichiers sources\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\DefenserFollowBallAction.cpp">
+      <Filter>Fichiers sources\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\BallKeeperTryoutAction.cpp">
+      <Filter>Fichiers sources\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\BallKeeperPassAction.cpp">
+      <Filter>Fichiers sources\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\BallKeeperAttackAction.cpp">
+      <Filter>Fichiers sources\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\AttackFollowBallKeeperAction.cpp">
+      <Filter>Fichiers sources\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\AnyToBallKeeperCondition.cpp">
+      <Filter>Fichiers sources\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\AttackToDefenseCondition.cpp">
+      <Filter>Fichiers sources\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\BallKeeperToIdleCondition.cpp">
+      <Filter>Fichiers sources\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\DefenseToAttackCondition.cpp">
+      <Filter>Fichiers sources\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\IdleToAttackerCondition.cpp">
+      <Filter>Fichiers sources\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\IdleToBallKeeperCondition.cpp">
+      <Filter>Fichiers sources\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\IdleToDefenserCondition.cpp">
+      <Filter>Fichiers sources\Condition</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\Action.hpp">
+      <Filter>Fichiers d%27en-tête\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\Behaviour.hpp">
+      <Filter>Fichiers d%27en-tête\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\Condition.hpp">
+      <Filter>Fichiers d%27en-tête\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\Transition.hpp">
+      <Filter>Fichiers d%27en-tête\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugController.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\AnyToBallKeeperCondition.h">
+      <Filter>Fichiers d%27en-tête\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\AttackFollowBallKeeperAction.h">
+      <Filter>Fichiers d%27en-tête\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\AttackToDefenseCondition.h">
+      <Filter>Fichiers d%27en-tête\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\BallKeeperAttackAction.hpp">
+      <Filter>Fichiers d%27en-tête\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\BallKeeperPassAction.hpp">
+      <Filter>Fichiers d%27en-tête\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\BallKeeperToIdleCondition.hpp">
+      <Filter>Fichiers d%27en-tête\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\BallKeeperTryoutAction.hpp">
+      <Filter>Fichiers d%27en-tête\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\DefenserFollowBallAction.h">
+      <Filter>Fichiers d%27en-tête\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\DefenserTakeBallAction.h">
+      <Filter>Fichiers d%27en-tête\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\DefenseToAttackCondition.h">
+      <Filter>Fichiers d%27en-tête\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\IdleToAttackerCondition.hpp">
+      <Filter>Fichiers d%27en-tête\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\IdleToBallKeeperCondition.hpp">
+      <Filter>Fichiers d%27en-tête\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\IdleToDefenserCondition.hpp">
+      <Filter>Fichiers d%27en-tête\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\IdleWaitAction.hpp">
+      <Filter>Fichiers d%27en-tête\Action</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
